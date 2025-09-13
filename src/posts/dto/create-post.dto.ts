@@ -17,10 +17,6 @@ export class CreatePostDto {
   @IsOptional()
   summary?: string;
 
-  @IsNotEmpty()
-  @IsNumber()
-  userId: number;
-
   @IsArray()
   @IsNumber({}, { each: true })
   @IsOptional()
