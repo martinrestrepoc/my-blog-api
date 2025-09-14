@@ -5,6 +5,7 @@ export interface Env {
   DB_PASSWORD: string;
   DB_NAME: string;
   JWT_SECRET: string;
+  OPENAI_API_KEY: string;
 }
 /* Define la estructura de la variable de entorno,
 para que si no la sigue, saque un error */
