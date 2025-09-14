@@ -13,3 +13,10 @@
 
 
 
+postgresql://postgres:IKddVDCUrwPckDnVlFyBclpLCsqqIJLG@postgres.railway.internal:5432/railway
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=IKddVDCUrwPckDnVlFyBclpLCsqqIJLG
+DB_NAME=railway
+DB_HOST=postgres.railway.internal
+
